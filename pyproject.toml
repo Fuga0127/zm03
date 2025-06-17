@@ -7,10 +7,12 @@ authors = [
     { name = "Taniguchi Fuga", email = "sw23833q@st.omu.ac.jp" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "typer>=0.16.0",
+]
 
 [project.scripts]
-zm03 = "zm03:main"
+zm03 = "zm03.main:app"
 
 [build-system]
 requires = ["hatchling"]
